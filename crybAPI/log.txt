@@ -1,0 +1,1693 @@
+2018-11-11 03:53:12 am - 204 - No users found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\CustomersController.php(44): CustomersModel->getCustomers()
+#1 C:\xampp\htdocs\crybAPI\index.php(55): CustomersController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 03:53:23 am - 204 - No users found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\CustomersController.php(44): CustomersModel->getCustomers()
+#1 C:\xampp\htdocs\crybAPI\index.php(55): CustomersController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 03:53:33 am - 42S02 - SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cryb.user' doesn't exist
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\UsersModel.php(16): PDOStatement->execute()
+#1 C:\xampp\htdocs\crybAPI\controllers\UsersController.php(42): UsersModel->getUsers()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): UsersController->getAction(Object(Request))
+#3 {main}
+
+2018-11-11 03:53:41 am - 400 - The requested object 'CustomerController' is not supported.
+Stack Trace: #0 {main}
+
+2018-11-11 03:53:52 am - 204 - No users found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\CustomersController.php(44): CustomersModel->getCustomers()
+#1 C:\xampp\htdocs\crybAPI\index.php(55): CustomersController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 03:53:57 am - 204 - No users found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\CustomersController.php(44): CustomersModel->getCustomers()
+#1 C:\xampp\htdocs\crybAPI\index.php(55): CustomersController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 04:01:24 am - 400 - No user found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\AuthController.php(30): AuthModel->getUser('john.doe1@email...')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): AuthController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 04:29:28 am - 42S22 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\AddressesModel.php(34): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\AddressesController.php(39): AddressesModel->getAddress(1)
+#2 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->getAction(Object(Request))
+#3 {main}
+
+2018-11-11 04:57:02 am - 400 - The requested object 'PropertyphotosController' is not supported.
+Stack Trace: #0 {main}
+
+2018-11-11 04:57:11 am - 400 - The requested object 'PropertyPhotosController' is not supported.
+Stack Trace: #0 {main}
+
+2018-11-11 04:57:41 am - 400 - The requested object 'PropertyPHOTOSController' is not supported.
+Stack Trace: #0 {main}
+
+2018-11-11 04:57:48 am - 400 - The requested object 'PropertyPHOTOSController' is not supported.
+Stack Trace: #0 {main}
+
+2018-11-11 04:57:54 am - 400 - The requested object 'PropertyphotosController' is not supported.
+Stack Trace: #0 {main}
+
+2018-11-11 04:58:01 am - 400 - The requested object 'PropertyPhotosController' is not supported.
+Stack Trace: #0 {main}
+
+2018-11-11 05:00:23 am - 400 - The requested object 'PropertyPhotosController' is not supported.
+Stack Trace: #0 {main}
+
+2018-11-11 05:00:26 am - 400 - The requested object 'PropertyPhotosController' is not supported.
+Stack Trace: #0 {main}
+
+2018-11-11 05:01:39 am - 400 - The requested object 'PropertyPhotosController' is not supported.
+Stack Trace: #0 {main}
+
+2018-11-11 05:01:40 am - 400 - The requested object 'PropertyPhotosController' is not supported.
+Stack Trace: #0 {main}
+
+2018-11-11 05:01:40 am - 400 - The requested object 'PropertyPhotosController' is not supported.
+Stack Trace: #0 {main}
+
+2018-11-11 05:01:40 am - 400 - The requested object 'PropertyPhotosController' is not supported.
+Stack Trace: #0 {main}
+
+2018-11-11 05:01:40 am - 400 - The requested object 'PropertyPhotosController' is not supported.
+Stack Trace: #0 {main}
+
+2018-11-11 05:01:40 am - 400 - The requested object 'PropertyPhotosController' is not supported.
+Stack Trace: #0 {main}
+
+2018-11-11 05:01:41 am - 400 - The requested object 'PropertyPhotosController' is not supported.
+Stack Trace: #0 {main}
+
+2018-11-11 05:01:41 am - 400 - The requested object 'PropertyPhotosController' is not supported.
+Stack Trace: #0 {main}
+
+2018-11-11 05:01:41 am - 400 - The requested object 'PropertyPhotosController' is not supported.
+Stack Trace: #0 {main}
+
+2018-11-11 05:01:41 am - 400 - The requested object 'PropertyPhotosController' is not supported.
+Stack Trace: #0 {main}
+
+2018-11-11 05:01:41 am - 400 - The requested object 'PropertyPhotosController' is not supported.
+Stack Trace: #0 {main}
+
+2018-11-11 05:01:44 am - 400 - The requested object 'PropertyPhotosController' is not supported.
+Stack Trace: #0 {main}
+
+2018-11-11 05:01:47 am - 400 - The requested object 'PropertyphotosController' is not supported.
+Stack Trace: #0 {main}
+
+2018-11-11 05:01:49 am - 400 - The requested object 'PropertyphotosController' is not supported.
+Stack Trace: #0 {main}
+
+2018-11-11 05:03:22 am - 204 - No photos found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertyPhotosController.php(39): PropertyPhotosModel->getPropertyPhoto(1)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertyPhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 05:06:45 am - 204 - No photos found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertyPhotosController.php(39): PropertyPhotosModel->getPropertyPhotos(1)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertyPhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 07:25:37 am - 42S22 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'city' in 'where clause'
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(44): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(43): PropertiesModel->getPropertyByCity('ottawa')
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#3 {main}
+
+2018-11-11 07:50:11 am - 204 - No property found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(40): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 07:50:14 am - 204 - No property found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(40): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 07:50:23 am - 204 - No property found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(40): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 07:52:00 am - 400 - No property found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(40): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 07:54:10 am - 500 - An error has occurred
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(40): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 07:54:26 am - 500 - An error has occurred
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(40): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 07:54:29 am - 500 - An error has occurred
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(40): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 07:58:08 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(40): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 08:01:49 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 08:02:00 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 08:02:08 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 08:02:15 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 08:03:37 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 08:03:53 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 08:03:59 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 08:04:35 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 08:05:30 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 08:05:33 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 08:05:34 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 08:05:37 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 08:05:57 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 08:07:01 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(46): PropertiesModel->getPropertiesByMinMaxPrice(0, 1500)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 08:10:01 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(42): PropertiesModel->getPropertiesByCity('ottawa')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 08:10:06 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(42): PropertiesModel->getPropertiesByCity('ottawa')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 08:10:42 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(42): PropertiesModel->getPropertiesByCity('ottawa')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 08:12:28 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(42): PropertiesModel->getPropertiesByCity('ottawa')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 08:13:09 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(42): PropertiesModel->getPropertiesByCity('ottawa')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 08:13:20 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(42): PropertiesModel->getPropertiesByCity('ottawa')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 08:13:37 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(42): PropertiesModel->getPropertiesByCity('ottawa')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 08:21:51 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(42): PropertiesModel->getPropertiesByCity('gatienau')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 08:23:08 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(46): PropertiesModel->getPropertiesByMinMaxPrice(0, 100)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 08:26:55 am - 42S22 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.id' in 'where clause'
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(20): PDOStatement->execute()
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(51): PropertiesModel->getProperties()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#3 {main}
+
+2018-11-11 08:33:39 am - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 08:33:41 am - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 08:34:01 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(66): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(50): PropertiesModel->getPropertiesByBedrooms(1)
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#3 {main}
+
+2018-11-11 08:37:18 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(66): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(50): PropertiesModel->getPropertiesByBedrooms(1)
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#3 {main}
+
+2018-11-11 08:39:14 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(66): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(50): PropertiesModel->getPropertiesByBedrooms(100)
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#3 {main}
+
+2018-11-11 08:40:25 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(50): PropertiesModel->getPropertiesByBedrooms(100)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 08:40:31 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(50): PropertiesModel->getPropertiesByBedrooms(1000)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 08:40:35 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(50): PropertiesModel->getPropertiesByBedrooms(5000)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 08:41:01 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(50): PropertiesModel->getPropertiesByBedrooms(5000)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 08:41:08 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(50): PropertiesModel->getPropertiesByBedrooms(1000)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 08:41:36 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(50): PropertiesModel->getPropertiesByBedrooms(6)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 08:41:55 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(53): PropertiesModel->getPropertiesByBathrooms(7)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 08:44:21 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(56): PropertiesModel->getPropertiesByType('business')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 09:03:35 am - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 09:03:40 am - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 09:50:24 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(62): PropertiesModel->getPropertiesByOptions(Array)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 09:50:42 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(62): PropertiesModel->getPropertiesByOptions(Array)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 09:51:18 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(62): PropertiesModel->getPropertiesByOptions(Array)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 09:51:20 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(62): PropertiesModel->getPropertiesByOptions(Array)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 09:51:24 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(62): PropertiesModel->getPropertiesByOptions(Array)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 09:53:04 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(62): PropertiesModel->getPropertiesByOptions(Array)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 09:53:16 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(62): PropertiesModel->getPropertiesByOptions(Array)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 09:55:31 am - 42S22 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ottawa' in 'where clause'
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(48): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(62): PropertiesModel->getPropertiesByOptions(Array)
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#3 {main}
+
+2018-11-11 09:58:09 am - 404 - Page not found..
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(62): PropertiesModel->getPropertiesByOptions(Array)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 09:59:51 am - 42S22 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'bedrooms' in 'where clause'
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(48): PDOStatement->execute()
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(62): PropertiesModel->getPropertiesByOptions(Array)
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#3 {main}
+
+2018-11-11 10:02:47 am - 404 - Page not found..
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(62): PropertiesModel->getPropertiesByOptions(Array)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 10:02:51 am - 404 - Page not found..
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(62): PropertiesModel->getPropertiesByOptions(Array)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 10:05:57 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(62): PropertiesModel->getPropertiesByOptions(Array)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 10:06:05 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(62): PropertiesModel->getPropertiesByOptions(Array)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 05:52:46 pm - 400 - The requested object 'HtmlController' is not supported.
+Stack Trace: #0 {main}
+
+2018-11-11 05:57:33 pm - 23000 - SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'type' in where clause is ambiguous
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(81): PDOStatement->execute()
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(86): PropertiesModel->getPropertiesHtmlView(Array)
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#3 {main}
+
+2018-11-11 05:59:35 pm - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(86): PropertiesModel->getPropertiesHtmlView(Array)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 06:09:18 pm - 400 - The requested object 'PhotosController' is not supported.
+Stack Trace: #0 {main}
+
+2018-11-11 06:09:32 pm - 204 - No photos found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertyPhotosController.php(39): PropertyPhotosModel->getPropertyPhotos(1)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertyPhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 06:09:58 pm - 204 - No photos found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertyPhotosController.php(39): PropertyPhotosModel->getPropertyPhotos(1)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertyPhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 06:49:08 pm - 400 - The requested object 'PhotosController' is not supported.
+Stack Trace: #0 {main}
+
+2018-11-11 06:50:10 pm - 400 - The requested object 'PhotosController' is not supported.
+Stack Trace: #0 {main}
+
+2018-11-11 07:33:42 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:33:51 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:35:30 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:35:30 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:35:31 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:35:31 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:35:32 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:35:32 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:35:32 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:35:32 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:35:32 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:35:32 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:35:32 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:35:33 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:36:38 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:36:38 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:36:38 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:36:38 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:36:39 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:36:39 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:36:39 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:36:39 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:36:39 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:36:39 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:36:40 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:36:40 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:36:40 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:36:40 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:36:40 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:36:40 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:36:53 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:36:55 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:37:47 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:37:48 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:37:48 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:37:49 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:37:49 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:37:49 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:43:26 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:43:27 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:43:27 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:43:27 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:43:27 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:43:27 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:43:33 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:45:08 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:45:08 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:45:08 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:45:09 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:45:09 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:45:09 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:45:09 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:45:09 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:45:39 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:45:39 pm - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 07:56:30 pm - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertyPhotosController.php(39): PropertyPhotosModel->getPropertyPhotos('number')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertyPhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 07:58:01 pm - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertyPhotosController.php(39): PropertyPhotosModel->getPropertyPhotos(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertyPhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 07:58:03 pm - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertyPhotosController.php(39): PropertyPhotosModel->getPropertyPhotos(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertyPhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 07:58:34 pm - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertyPhotosController.php(39): PropertyPhotosModel->getPropertyPhotos(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertyPhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 07:58:37 pm - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertyPhotosController.php(39): PropertyPhotosModel->getPropertyPhotos(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertyPhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 08:00:46 pm - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertyPhotosController.php(39): PropertyPhotosModel->getPropertyPhotos(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertyPhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 08:00:49 pm - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertyPhotosController.php(39): PropertyPhotosModel->getPropertyPhotos(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertyPhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 08:01:11 pm - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertyPhotosController.php(39): PropertyPhotosModel->getPropertyPhotos(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertyPhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 08:02:25 pm - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertyPhotosController.php(39): PropertyPhotosModel->getPropertyPhotos(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertyPhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 08:02:51 pm - 400 - Invalid property ID.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertyPhotosController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 08:02:52 pm - 400 - Invalid property ID.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertyPhotosController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 08:03:06 pm - 400 - Invalid property ID.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertyPhotosController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 08:03:07 pm - 400 - Invalid property ID.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertyPhotosController->getAction(Object(Request))
+#1 {main}
+
+2018-11-11 09:51:09 pm - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(4)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 09:51:10 pm - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertyPhotosController.php(39): PropertyPhotosModel->getPropertyPhotos(4)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertyPhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 09:51:11 pm - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertyPhotosController.php(39): PropertyPhotosModel->getPropertyPhotos(4)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertyPhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 09:52:00 pm - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(4)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 09:56:00 pm - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(4)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 09:56:01 pm - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertyPhotosController.php(39): PropertyPhotosModel->getPropertyPhotos(4)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertyPhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 09:56:05 pm - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(4)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 09:56:06 pm - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertyPhotosController.php(39): PropertyPhotosModel->getPropertyPhotos(4)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertyPhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 09:56:18 pm - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(4)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 09:56:19 pm - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertyPhotosController.php(39): PropertyPhotosModel->getPropertyPhotos(4)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertyPhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 09:58:12 pm - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(4)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 09:58:13 pm - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertyPhotosController.php(39): PropertyPhotosModel->getPropertyPhotos(4)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertyPhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 10:08:09 pm - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(4)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 10:08:10 pm - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertyPhotosController.php(39): PropertyPhotosModel->getPropertyPhotos(4)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertyPhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 10:08:17 pm - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(4)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-11 10:08:18 pm - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertyPhotosController.php(39): PropertyPhotosModel->getPropertyPhotos(4)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertyPhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 12:21:13 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 12:23:06 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 12:24:50 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 12:24:54 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 12:25:20 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 12:25:52 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 12:25:55 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 12:26:27 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 12:26:47 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 12:27:03 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 12:27:17 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 12:28:33 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 12:28:38 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 12:31:09 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 12:32:15 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 12:32:18 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 12:32:31 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 12:32:34 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 12:33:41 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 12:34:05 am - 400 - Invalid property info.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#1 {main}
+
+2018-11-12 12:34:55 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 12:37:21 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(62): PropertiesModel->getPropertiesByOptions(Array)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 12:40:26 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(62): PropertiesModel->getPropertiesByOptions(Array)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 12:40:54 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(62): PropertiesModel->getPropertiesByOptions(Array)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 12:41:09 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(62): PropertiesModel->getPropertiesByOptions(Array)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 12:41:30 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(62): PropertiesModel->getPropertiesByOptions(Array)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 12:42:45 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(62): PropertiesModel->getPropertiesByOptions(Array)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 12:42:48 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(62): PropertiesModel->getPropertiesByOptions(Array)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 12:44:32 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(62): PropertiesModel->getPropertiesByOptions(Array)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 12:45:30 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(62): PropertiesModel->getPropertiesByOptions(Array)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 12:47:16 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(62): PropertiesModel->getPropertiesByOptions(Array)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 12:47:32 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(62): PropertiesModel->getPropertiesByOptions(Array)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 01:08:09 am - 42S22 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pid' in 'field list'
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\AuthModel.php(17): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\AuthController.php(30): AuthModel->getUserEmail('john.doe@email....')
+#2 C:\xampp\htdocs\crybAPI\index.php(55): AuthController->getAction(Object(Request))
+#3 {main}
+
+2018-11-12 01:10:00 am - 400 - No user found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\AuthController.php(30): AuthModel->authenticateUser('john.do@email.c...')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): AuthController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 01:24:21 am - 400 - No user found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\AuthController.php(31): AuthModel->authenticateUser('john.de@email.c...', 'password')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): AuthController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 01:30:05 am - 400 - No user found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\AuthController.php(31): AuthModel->authenticateUser('john.de@email.c...', 'password')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): AuthController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 01:31:30 am - 400 - No user found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\AuthController.php(31): AuthModel->authenticateUser('john.de@email.c...', 'password')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): AuthController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 01:32:05 am - 400 - No user found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\AuthController.php(31): AuthModel->authenticateUser('john.de@email.c...', 'password')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): AuthController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 01:33:08 am - 400 - No user found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\AuthController.php(31): AuthModel->authenticateUser('john.de@email.c...', 'password')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): AuthController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 01:33:29 am - 400 - No user found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\AuthController.php(31): AuthModel->authenticateUser('john.de@email.c...', 'password')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): AuthController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 01:35:27 am - 400 - No user found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\AuthController.php(31): AuthModel->authenticateUser('john.de@email.c...', 'password')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): AuthController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 01:35:45 am - 400 - No user found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\AuthController.php(31): AuthModel->authenticateUser('john.de@email.c...', 'password')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): AuthController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 01:36:21 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(62): PropertiesModel->getPropertiesByOptions(Array)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 01:37:21 am - 400 - No user found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\AuthController.php(31): AuthModel->authenticateUser('john.oe@email.c...', 'password')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): AuthController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 01:39:08 am - 400 - No user found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\AuthController.php(31): AuthModel->authenticateUser('john.de@email.c...', 'password')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): AuthController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 01:39:46 am - 400 - No user found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\AuthController.php(31): AuthModel->authenticateUser('john.de@email.c...', 'password')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): AuthController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 01:41:45 am - 400 - No user found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\AuthController.php(31): AuthModel->authenticateUser('john.de@email.c...', 'password')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): AuthController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 01:42:01 am - 400 - No user found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\AuthController.php(31): AuthModel->authenticateUser('john.de@email.c...', 'password')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): AuthController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 01:42:31 am - 400 - No user found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\AuthController.php(31): AuthModel->authenticateUser('john.de@email.c...', 'password')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): AuthController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 01:42:48 am - 400 - No user found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\AuthController.php(31): AuthModel->authenticateUser('john.de@email.c...', 'password')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): AuthController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 02:07:43 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 02:37:59 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(67): PropertiesModel->getPropertiesByOwner(2)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 02:38:38 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(67): PropertiesModel->getPropertiesByOwner(2)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 02:47:42 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(4)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 02:47:43 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertyPhotosController.php(39): PropertyPhotosModel->getPropertyPhotos(4)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertyPhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-12 03:47:29 am - 400 - Invalid or missing customer object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): CustomersController->postAction(Object(Request))
+#1 {main}
+
+2018-11-12 03:48:01 am - 400 - Invalid or missing customer object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): CustomersController->postAction(Object(Request))
+#1 {main}
+
+2018-11-12 03:48:02 am - 400 - Invalid or missing customer object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): CustomersController->postAction(Object(Request))
+#1 {main}
+
+2018-11-12 03:49:46 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-12 03:50:02 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-12 03:50:31 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-12 03:51:09 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-12 03:51:25 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-12 03:51:26 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-12 03:51:37 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-12 03:53:41 am - 400 - Invalid or missing customer object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): CustomersController->postAction(Object(Request))
+#1 {main}
+
+2018-11-12 03:53:42 am - 400 - Invalid or missing customer object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): CustomersController->postAction(Object(Request))
+#1 {main}
+
+2018-11-12 03:53:53 am - 400 - Invalid or missing customer object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): CustomersController->postAction(Object(Request))
+#1 {main}
+
+2018-11-12 03:53:54 am - 400 - Invalid or missing customer object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): CustomersController->postAction(Object(Request))
+#1 {main}
+
+2018-11-12 03:53:54 am - 400 - Invalid or missing customer object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): CustomersController->postAction(Object(Request))
+#1 {main}
+
+2018-11-12 03:54:21 am - 400 - Invalid or missing customer object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): CustomersController->postAction(Object(Request))
+#1 {main}
+
+2018-11-12 03:54:22 am - 400 - Invalid or missing customer object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): CustomersController->postAction(Object(Request))
+#1 {main}
+
+2018-11-12 03:54:45 am - 400 - Invalid or missing customer object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): CustomersController->postAction(Object(Request))
+#1 {main}
+
+2018-11-12 03:54:46 am - 400 - Invalid or missing customer object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): CustomersController->postAction(Object(Request))
+#1 {main}
+
+2018-11-12 03:54:46 am - 400 - Invalid or missing customer object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): CustomersController->postAction(Object(Request))
+#1 {main}
+
+2018-11-12 03:54:46 am - 400 - Invalid or missing customer object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): CustomersController->postAction(Object(Request))
+#1 {main}
+
+2018-11-12 03:59:06 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-12 03:59:07 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-12 03:59:12 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-12 03:59:12 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-12 03:59:13 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-12 03:59:13 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-12 03:59:13 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-12 03:59:13 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-12 03:59:13 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-12 03:59:13 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-12 04:40:38 am - 500 - Unable to connect to the database - SQLSTATE[HY000] [1045] Access denied for user 'crybUser'@'localhost' (using password: YES)
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\CustomersModel.php(21): DB::get()
+#1 C:\xampp\htdocs\crybAPI\controllers\CustomersController.php(44): CustomersModel->getCustomers()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): CustomersController->getAction(Object(Request))
+#3 {main}
+
+2018-11-12 04:40:42 am - 500 - Unable to connect to the database - SQLSTATE[HY000] [1045] Access denied for user 'crybUser'@'localhost' (using password: YES)
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(20): DB::get()
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(73): PropertiesModel->getProperties()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#3 {main}
+
+2018-11-14 04:56:09 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(62): PropertiesModel->getPropertiesByOptions(Array)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-14 04:56:30 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(39): PropertiesModel->getProperty(0)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-17 05:50:25 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(62): PropertiesModel->getPropertiesByOptions(Array)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-17 05:50:29 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(62): PropertiesModel->getPropertiesByOptions(Array)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-17 06:21:27 am - 400 - No user found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\AuthController.php(31): AuthModel->authenticateUser('properties', 'options')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): AuthController->getAction(Object(Request))
+#2 {main}
+
+2018-11-17 06:21:32 am - 400 - No user found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\AuthController.php(31): AuthModel->authenticateUser('properties', 'options')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): AuthController->getAction(Object(Request))
+#2 {main}
+
+2018-11-17 06:21:42 am - 400 - No user found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\AuthController.php(31): AuthModel->authenticateUser('properties', 'options')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): AuthController->getAction(Object(Request))
+#2 {main}
+
+2018-11-17 06:41:37 am - 400 - No user found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\AuthController.php(31): AuthModel->authenticateUser('john.doe@email....', 'dweefefef')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): AuthController->getAction(Object(Request))
+#2 {main}
+
+2018-11-17 07:13:21 am - 400 - No user found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\AuthController.php(38): AuthModel->authenticateEmail('john.doe@eail.c...')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): AuthController->getAction(Object(Request))
+#2 {main}
+
+2018-11-17 07:23:23 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:23:57 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:23:58 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:23:58 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:23:58 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:23:59 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:30:53 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:31:05 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:31:55 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:31:56 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:31:56 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:32:13 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:32:13 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:32:14 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:32:14 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:32:15 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:32:15 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:32:15 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:32:15 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:32:15 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:32:15 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:32:39 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:32:39 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:32:40 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:32:40 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:32:40 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:32:40 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:32:40 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:32:52 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:32:52 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:32:52 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:32:52 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:36:28 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:36:29 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:36:29 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:36:29 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:36:30 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:36:30 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:37:19 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:37:19 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:37:20 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:37:20 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:37:20 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:37:20 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:37:20 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:37:22 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 07:37:22 am - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 09:26:12 pm - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 09:27:47 pm - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 09:27:48 pm - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 09:27:49 pm - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 09:27:49 pm - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 09:33:25 pm - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 09:33:26 pm - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 09:35:54 pm - 400 - Invalid or missing customer object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): CustomersController->postAction(Object(Request))
+#1 {main}
+
+2018-11-17 09:35:54 pm - 400 - Invalid or missing customer object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): CustomersController->postAction(Object(Request))
+#1 {main}
+
+2018-11-17 09:35:54 pm - 400 - Invalid or missing customer object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): CustomersController->postAction(Object(Request))
+#1 {main}
+
+2018-11-17 09:35:55 pm - 400 - Invalid or missing customer object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): CustomersController->postAction(Object(Request))
+#1 {main}
+
+2018-11-17 09:37:01 pm - 400 - Invalid or missing customer object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): CustomersController->postAction(Object(Request))
+#1 {main}
+
+2018-11-17 09:47:32 pm - 400 - Invalid or missing customer object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): CustomersController->postAction(Object(Request))
+#1 {main}
+
+2018-11-17 09:47:33 pm - 400 - Invalid or missing customer object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): CustomersController->postAction(Object(Request))
+#1 {main}
+
+2018-11-17 09:48:25 pm - 400 - Invalid or missing customer object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): CustomersController->postAction(Object(Request))
+#1 {main}
+
+2018-11-17 09:48:39 pm - 400 - Invalid or missing customer object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): CustomersController->postAction(Object(Request))
+#1 {main}
+
+2018-11-17 09:57:47 pm - 400 - The requested object 'UsernameController' is not supported.
+Stack Trace: #0 {main}
+
+2018-11-17 09:57:47 pm - 400 - The requested object 'EmailController' is not supported.
+Stack Trace: #0 {main}
+
+2018-11-17 10:15:48 pm - 400 - No user found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\AuthController.php(35): AuthModel->authenticateUsername('nesta123')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): AuthController->getAction(Object(Request))
+#2 {main}
+
+2018-11-17 10:15:49 pm - 400 - No user found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\AuthController.php(38): AuthModel->authenticateEmail('nesta@test.ca')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): AuthController->getAction(Object(Request))
+#2 {main}
+
+2018-11-17 10:15:50 pm - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 10:30:16 pm - 400 - No user found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\AuthController.php(35): AuthModel->authenticateUsername('nesta123')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): AuthController->getAction(Object(Request))
+#2 {main}
+
+2018-11-17 10:30:17 pm - 400 - No user found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\AuthController.php(38): AuthModel->authenticateEmail('nesta123@test.c...')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): AuthController->getAction(Object(Request))
+#2 {main}
+
+2018-11-17 10:30:17 pm - 400 - Unsupported request body Content-Type of 'application/x-www-form-urlencoded'.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-17 10:33:19 pm - 400 - No user found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\AuthController.php(35): AuthModel->authenticateUsername('nesta123')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): AuthController->getAction(Object(Request))
+#2 {main}
+
+2018-11-17 10:33:20 pm - 400 - No user found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\AuthController.php(38): AuthModel->authenticateEmail('nesta@test.ca')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): AuthController->getAction(Object(Request))
+#2 {main}
+
+2018-11-17 10:33:20 pm - 400 - The requested object 'Customersnesta123Controller' is not supported.
+Stack Trace: #0 {main}
+
+2018-11-17 10:35:40 pm - 400 - No user found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\AuthController.php(35): AuthModel->authenticateUsername('nesta123')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): AuthController->getAction(Object(Request))
+#2 {main}
+
+2018-11-17 10:35:41 pm - 400 - No user found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\AuthController.php(38): AuthModel->authenticateEmail('nesta@gmail.com')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): AuthController->getAction(Object(Request))
+#2 {main}
+
+2018-11-17 10:40:13 pm - 400 - No user found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\AuthController.php(35): AuthModel->authenticateUsername('brown')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): AuthController->getAction(Object(Request))
+#2 {main}
+
+2018-11-17 10:40:14 pm - 400 - No user found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\AuthController.php(38): AuthModel->authenticateEmail('chris.brown@tes...')
+#1 C:\xampp\htdocs\crybAPI\index.php(55): AuthController->getAction(Object(Request))
+#2 {main}
+
+2018-11-17 10:48:32 pm - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(67): PropertiesModel->getPropertiesByOwner(7)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-17 10:56:40 pm - 42S22 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\CustomersModel.php(36): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\CustomersController.php(39): CustomersModel->getCustomer(5)
+#2 C:\xampp\htdocs\crybAPI\index.php(55): CustomersController->getAction(Object(Request))
+#3 {main}
+
+2018-11-17 10:56:49 pm - 42S22 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\CustomersModel.php(36): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\CustomersController.php(39): CustomersModel->getCustomer(1)
+#2 C:\xampp\htdocs\crybAPI\index.php(55): CustomersController->getAction(Object(Request))
+#3 {main}
+
+2018-11-17 11:18:55 pm - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(67): PropertiesModel->getPropertiesByOwner(7)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
