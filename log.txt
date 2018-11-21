@@ -1691,3 +1691,6 @@ Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(67)
 #1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
 #2 {main}
 
+2018-11-21 02:19:58 am - 400 - The requested object 'CrybAPIController' is not supported.
+Stack Trace: #0 {main}
+
