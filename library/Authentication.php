@@ -1,7 +1,13 @@
 <?php
 /**
- * @desc Authenticate requests using public/private key asynchronous encryption
- * @author Aury Rukazana
+ * @desc This class is not ready and not used. It would be used to encrypt all the
+ * authentications of
+ * users.
+ *
+ * Assigned to Sephira
+ *
+ * @author  quadTech
+ * @license quadTech
  */
 
 class Authentication {

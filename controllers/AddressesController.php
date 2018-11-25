@@ -1,14 +1,25 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: rukau
- * Date: 2018-11-10
- * Time: 22:12
+ * @desc This class should be used as a controller to control the different address(es) information
+ * requests of the API
+ *
+ * @author  quadTech
+ * @license quadTech
  */
 
 class AddressesController
 {
+    /**
+     * @var class $model
+     * @desc Address Model to describe an address entity
+     */
     private $model;
+
+    /**
+     * @var string $model_name
+     * @desc Address Model to describe an address entity class name
+     */
+
     private $model_name;
 
     public function __construct() {
@@ -24,12 +35,12 @@ class AddressesController
     /*
      @uri	/Addresses
      @verb	GET
-     @desc	Get a list of Addresses
+     @desc	Function should retrieve all or 1 address.
      */
     /*
      @uri	/Addresses/{id}
      @verb	GET
-     @desc	Get one address
+     @desc	Get one address by querying the URI
      */
     public function getAction($request) {
         if (!empty($request->url_elements[3])) {

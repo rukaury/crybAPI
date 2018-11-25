@@ -1,7 +1,10 @@
 <?php
 /**
- * @desc Users controller
- * @author Aury Rukazana
+ * @desc This class should be used as a template of any type of controller. It is not used in our
+ * API.
+ *
+ * @author  quadTech
+ * @license quadTech
  */
 
 class UsersController extends ApiController

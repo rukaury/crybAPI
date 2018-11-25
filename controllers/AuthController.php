@@ -1,15 +1,26 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: rukau
- * Date: 2018-10-30
- * Time: 22:44
+ * @desc This class should be used as a controller to control the different users authentication
+ * methods
+ *
+ * @author  quadTech
+ * @license quadTech
  */
 
 class AuthController extends ApiController
 {
 
+    /**
+     * @var class $model
+     * @desc Address Model to describe an address entity
+     */
     private $model;
+
+    /**
+     * @var string $model_name
+     * @desc Address Model to describe an address entity class name
+     */
+
     private $model_name;
 
     public function __construct() {

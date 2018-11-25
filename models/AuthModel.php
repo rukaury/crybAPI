@@ -1,9 +1,10 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: rukau
- * Date: 2018-10-30
- * Time: 22:47
+ * @desc This class should be used as a model to control the a single user authentication
+ * information
+ *
+ * @author  quadTech
+ * @license quadTech
  */
 
 class AuthModel extends ApiModel

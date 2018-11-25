@@ -1,9 +1,11 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: rukau
- * Date: 2018-11-10
- * Time: 22:41
+ * @desc This class should be used as a controller to control the different property photo(s)
+ * information
+ * requests of the API
+ *
+ * @author  quadTech
+ * @license quadTech
  */
 
 class PhotosController

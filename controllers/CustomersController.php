@@ -1,14 +1,25 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: rukau
- * Date: 2018-11-10
- * Time: 21:36
+ * @desc This class should be used as a controller to control the different customer information
+ * requests of the API
+ *
+ * @author  quadTech
+ * @license quadTech
  */
 
 class CustomersController
 {
+    /**
+     * @var class $model
+     * @desc Address Model to describe an address entity
+     */
     private $model;
+
+    /**
+     * @var string $model_name
+     * @desc Address Model to describe an address entity class name
+     */
+
     private $model_name;
 
     public function __construct() {

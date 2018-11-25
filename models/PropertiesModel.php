@@ -1,9 +1,10 @@
 <?php
 /**
- * Created by PhpStorm.
- * property: rukau
- * Date: 2018-11-10
- * Time: 22:33
+ * @desc This class should be used as a model to control the a single property
+ * information
+ *
+ * @author  quadTech
+ * @license quadTech
  */
 
 class PropertiesModel

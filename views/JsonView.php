@@ -1,7 +1,9 @@
 <?php
 /**
- * @desc To output the response in JSON
- * @author Aury Rukazana, 29/03/15
+ * @desc This class should be used as a to convert any page data in JSON format
+ *
+ * @author  quadTech
+ * @license quadTech
  */
 
 class JsonView extends ApiView {

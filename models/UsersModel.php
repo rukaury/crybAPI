@@ -1,7 +1,10 @@
 <?php
 /**
- * @desc Users model
- * @author Aury Rukazana
+ * @desc This class should be used as a template of any type of model. It is not used in our
+ * API.
+ *
+ * @author  quadTech
+ * @license quadTech
  */
 
 class UsersModel extends ApiModel

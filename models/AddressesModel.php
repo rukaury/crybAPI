@@ -1,9 +1,10 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: rukau
- * Date: 2018-11-10
- * Time: 22:17
+ * @desc This class should be used as a model to control the a single Address
+ * information
+ *
+ * @author  quadTech
+ * @license quadTech
  */
 
 class AddressesModel

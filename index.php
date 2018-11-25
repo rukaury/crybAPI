@@ -3,7 +3,7 @@
  * @desc REST API Framework
  * Simply add/update the Controllers and Models using the appropriate naming conventions
  * Authentication and debugging can be enabled/disabled
- * @author Aury Rukazana, 29/03/15
+ * @author Aury Rukazana
  */
 
 static $debug = 0;
