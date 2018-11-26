@@ -97,7 +97,7 @@ class PropertiesController
     public function putAction($request) {
         // crybAPI/Properties
         $this->model = Helper::cast($request->body->property, $this->model_name);
-        if ($this->model->id)
+        if ($this->model->pid)
             return $this->model->updateProperty();
         else
             throw new Exception("Invalid or missing property object in request.", 400);

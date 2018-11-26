@@ -1694,3 +1694,114 @@ Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(67)
 2018-11-21 02:19:58 am - 400 - The requested object 'CrybAPIController' is not supported.
 Stack Trace: #0 {main}
 
+2018-11-25 04:22:02 am - 400 - Invalid or missing property object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->putAction(Object(Request))
+#1 {main}
+
+2018-11-25 04:22:57 am - 400 - Invalid or missing property object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->putAction(Object(Request))
+#1 {main}
+
+2018-11-25 04:28:30 am - 400 - The request content was invalid and could not be parsed successfully as JSON.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-11-25 04:28:39 am - 400 - Invalid or missing property object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->putAction(Object(Request))
+#1 {main}
+
+2018-11-25 04:29:10 am - 400 - Invalid or missing property object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->putAction(Object(Request))
+#1 {main}
+
+2018-11-25 04:29:11 am - 400 - Invalid or missing property object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->putAction(Object(Request))
+#1 {main}
+
+2018-11-25 04:30:33 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(140): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(101): PropertiesModel->updateProperty()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->putAction(Object(Request))
+#3 {main}
+
+2018-11-25 04:32:23 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(140): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(101): PropertiesModel->updateProperty()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->putAction(Object(Request))
+#3 {main}
+
+2018-11-25 04:34:08 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(140): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(101): PropertiesModel->updateProperty()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->putAction(Object(Request))
+#3 {main}
+
+2018-11-25 04:34:44 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(140): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(101): PropertiesModel->updateProperty()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->putAction(Object(Request))
+#3 {main}
+
+2018-11-25 04:35:06 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(140): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(101): PropertiesModel->updateProperty()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->putAction(Object(Request))
+#3 {main}
+
+2018-11-25 04:35:20 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(140): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(101): PropertiesModel->updateProperty()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->putAction(Object(Request))
+#3 {main}
+
+2018-11-25 04:35:41 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(140): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(101): PropertiesModel->updateProperty()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->putAction(Object(Request))
+#3 {main}
+
+2018-11-25 04:36:02 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(140): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(101): PropertiesModel->updateProperty()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->putAction(Object(Request))
+#3 {main}
+
+2018-11-25 04:37:19 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(140): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(101): PropertiesModel->updateProperty()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->putAction(Object(Request))
+#3 {main}
+
+2018-11-25 04:38:25 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(140): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(101): PropertiesModel->updateProperty()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->putAction(Object(Request))
+#3 {main}
+
+2018-11-25 04:40:07 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(141): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(101): PropertiesModel->updateProperty()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->putAction(Object(Request))
+#3 {main}
+
+2018-11-25 04:41:45 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(141): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(101): PropertiesModel->updateProperty()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->putAction(Object(Request))
+#3 {main}
+
+2018-11-25 04:46:37 am - 400 - Invalid or missing property object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->putAction(Object(Request))
+#1 {main}
+
+2018-11-25 04:47:17 am - 400 - Invalid or missing property object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->putAction(Object(Request))
+#1 {main}
+
+2018-11-25 05:10:19 am - 23000 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'num_of_bedrooms' cannot be null
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(141): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(101): PropertiesModel->updateProperty()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->putAction(Object(Request))
+#3 {main}
+
