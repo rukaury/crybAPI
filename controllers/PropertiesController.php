@@ -83,7 +83,8 @@ class PropertiesController
     public function postAction($request) {
         // crybAPI/Properties
         $this->model = Helper::cast($request->body->property, $this->model_name);
-        if ($this->model->first_name && $this->model->last_name && $this->model->email)
+        if ($this->model->uid && $this->model->p_type && $this->model->num_of_bedrooms &&
+            $this->model->num_of_bathrooms && $this->model->price && $this->model->description)
             return $this->model->createProperty();
         else
             throw new Exception("Invalid or missing property object in request.", 400);

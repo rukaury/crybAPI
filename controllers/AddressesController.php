@@ -64,10 +64,11 @@ class AddressesController
     public function postAction($request) {
         // API/Addresses
         $this->model = Helper::cast($request->body->address, $this->model_name);
-        if ($this->model->first_name && $this->model->last_name && $this->model->email)
+        if ($this->model->pid && $this->model->house_number && $this->model->street &&
+            $this->model->country && $this->model->state && $this->model->city)
             return $this->model->createAddress();
         else
-            throw new Exception("Invalid or missing address object in request.", 400);
+            throw new Exception("Invalid or missing address object in request.", 404);
     }
 
     /*

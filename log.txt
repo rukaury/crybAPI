@@ -1805,3 +1805,722 @@ Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(141): PDOStat
 #2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->putAction(Object(Request))
 #3 {main}
 
+2018-11-27 02:05:12 am - 23000 - SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'davidWebb' for key 'username'
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\CustomersModel.php(59): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\CustomersController.php(68): CustomersModel->createCustomer()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): CustomersController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 02:07:11 am - 23000 - SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'davidWebb' for key 'username'
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\CustomersModel.php(59): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\CustomersController.php(68): CustomersModel->createCustomer()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): CustomersController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 02:10:31 am - 23000 - SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'davidWebb' for key 'username'
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\CustomersModel.php(59): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\CustomersController.php(68): CustomersModel->createCustomer()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): CustomersController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 02:12:47 am - 23000 - SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'davidWebb' for key 'username'
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\CustomersModel.php(59): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\CustomersController.php(68): CustomersModel->createCustomer()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): CustomersController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 02:37:53 am - 400 - Invalid or missing property object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->postAction(Object(Request))
+#1 {main}
+
+2018-11-27 02:38:45 am - 400 - Invalid or missing property object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->postAction(Object(Request))
+#1 {main}
+
+2018-11-27 02:38:47 am - 400 - Invalid or missing property object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->postAction(Object(Request))
+#1 {main}
+
+2018-11-27 02:39:20 am - 400 - Invalid or missing property object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->postAction(Object(Request))
+#1 {main}
+
+2018-11-27 02:41:33 am - 42000 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(117): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(88): PropertiesModel->createProperty()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 02:42:53 am - 42000 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(117): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(88): PropertiesModel->createProperty()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 02:45:59 am - 42000 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(119): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(88): PropertiesModel->createProperty()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 02:46:56 am - 42000 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(117): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(88): PropertiesModel->createProperty()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 02:47:17 am - 42000 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(117): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(88): PropertiesModel->createProperty()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 02:48:09 am - 42000 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(117): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(88): PropertiesModel->createProperty()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 02:49:01 am - 400 - Invalid or missing property object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->postAction(Object(Request))
+#1 {main}
+
+2018-11-27 02:49:07 am - 400 - Invalid or missing property object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->postAction(Object(Request))
+#1 {main}
+
+2018-11-27 02:50:23 am - 42000 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(118): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(88): PropertiesModel->createProperty()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 02:52:47 am - 42000 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(118): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(88): PropertiesModel->createProperty()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 02:54:22 am - 42000 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(119): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(88): PropertiesModel->createProperty()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 02:54:57 am - 42000 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(119): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(88): PropertiesModel->createProperty()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 02:59:22 am - 42000 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(119): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(88): PropertiesModel->createProperty()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 03:03:55 am - 404 - Page not found..
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(88): PropertiesModel->createProperty()
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->postAction(Object(Request))
+#2 {main}
+
+2018-11-27 03:06:35 am - 42000 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(119): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(88): PropertiesModel->createProperty()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 03:09:54 am - 42000 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(119): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(88): PropertiesModel->createProperty()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 03:10:35 am - 42000 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(118): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(88): PropertiesModel->createProperty()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 03:28:44 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\AddressesModel.php(55): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\AddressesController.php(69): AddressesModel->createAddress()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 03:29:50 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\AddressesModel.php(55): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\AddressesController.php(69): AddressesModel->createAddress()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 03:30:21 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\AddressesModel.php(55): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\AddressesController.php(69): AddressesModel->createAddress()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 03:30:43 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\AddressesModel.php(55): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\AddressesController.php(69): AddressesModel->createAddress()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 03:35:50 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\AddressesModel.php(55): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\AddressesController.php(69): AddressesModel->createAddress()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 03:36:21 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\AddressesModel.php(55): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\AddressesController.php(69): AddressesModel->createAddress()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 03:36:48 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\AddressesModel.php(56): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\AddressesController.php(69): AddressesModel->createAddress()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 03:37:55 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\AddressesModel.php(56): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\AddressesController.php(69): AddressesModel->createAddress()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 03:45:09 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\AddressesModel.php(57): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\AddressesController.php(69): AddressesModel->createAddress()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 03:46:06 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\AddressesModel.php(54): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\AddressesController.php(69): AddressesModel->createAddress()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 03:47:53 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\AddressesModel.php(54): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\AddressesController.php(69): AddressesModel->createAddress()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 03:59:30 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\AddressesModel.php(54): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\AddressesController.php(69): AddressesModel->createAddress()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 04:01:25 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\AddressesModel.php(54): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\AddressesController.php(69): AddressesModel->createAddress()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 04:01:41 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\AddressesModel.php(54): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\AddressesController.php(69): AddressesModel->createAddress()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 04:04:45 am - 404 - Invalid or missing address object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->postAction(Object(Request))
+#1 {main}
+
+2018-11-27 04:04:48 am - 404 - Invalid or missing address object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->postAction(Object(Request))
+#1 {main}
+
+2018-11-27 04:04:48 am - 404 - Invalid or missing address object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->postAction(Object(Request))
+#1 {main}
+
+2018-11-27 04:04:49 am - 404 - Invalid or missing address object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->postAction(Object(Request))
+#1 {main}
+
+2018-11-27 04:04:50 am - 404 - Invalid or missing address object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->postAction(Object(Request))
+#1 {main}
+
+2018-11-27 04:04:50 am - 404 - Invalid or missing address object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->postAction(Object(Request))
+#1 {main}
+
+2018-11-27 04:04:50 am - 404 - Invalid or missing address object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->postAction(Object(Request))
+#1 {main}
+
+2018-11-27 04:04:52 am - 404 - Invalid or missing address object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->postAction(Object(Request))
+#1 {main}
+
+2018-11-27 04:05:07 am - 404 - Invalid or missing address object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->postAction(Object(Request))
+#1 {main}
+
+2018-11-27 04:05:08 am - 404 - Invalid or missing address object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->postAction(Object(Request))
+#1 {main}
+
+2018-11-27 04:05:24 am - 404 - Invalid or missing address object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->postAction(Object(Request))
+#1 {main}
+
+2018-11-27 04:05:42 am - 404 - Invalid or missing address object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->postAction(Object(Request))
+#1 {main}
+
+2018-11-27 04:06:13 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\AddressesModel.php(54): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\AddressesController.php(69): AddressesModel->createAddress()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 04:07:15 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\AddressesModel.php(54): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\AddressesController.php(69): AddressesModel->createAddress()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 04:07:33 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\AddressesModel.php(54): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\AddressesController.php(69): AddressesModel->createAddress()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 04:13:56 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\AddressesModel.php(54): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\AddressesController.php(69): AddressesModel->createAddress()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 04:15:17 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\AddressesModel.php(54): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\AddressesController.php(69): AddressesModel->createAddress()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 04:18:59 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\AddressesModel.php(56): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\AddressesController.php(69): AddressesModel->createAddress()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 04:19:46 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\AddressesModel.php(56): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\AddressesController.php(69): AddressesModel->createAddress()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 04:20:57 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\AddressesModel.php(56): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\AddressesController.php(69): AddressesModel->createAddress()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 04:48:06 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(4)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 04:48:59 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(4)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 04:49:42 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(68): PropertiesModel->getPropertiesByOwner(7)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 04:51:24 am - 400 - Invalid or missing property object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->postAction(Object(Request))
+#1 {main}
+
+2018-11-27 04:51:25 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(68): PropertiesModel->getPropertiesByOwner(7)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 04:52:23 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(68): PropertiesModel->getPropertiesByOwner(7)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 04:53:26 am - 400 - Invalid or missing property object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->postAction(Object(Request))
+#1 {main}
+
+2018-11-27 04:53:28 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(68): PropertiesModel->getPropertiesByOwner(7)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 04:53:43 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(68): PropertiesModel->getPropertiesByOwner(7)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 04:54:15 am - 400 - Invalid or missing property object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->postAction(Object(Request))
+#1 {main}
+
+2018-11-27 04:54:16 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(68): PropertiesModel->getPropertiesByOwner(7)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:00:21 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(68): PropertiesModel->getPropertiesByOwner(7)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:00:53 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(6)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:05:47 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(6)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:05:52 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(6)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:06:06 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(6)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:07:16 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(68): PropertiesModel->getPropertiesByOwner(7)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:07:49 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(8)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:09:00 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(8)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:10:02 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(68): PropertiesModel->getPropertiesByOwner(7)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:10:35 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:12:12 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:17:32 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:18:52 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:19:07 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:19:17 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:19:38 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:20:11 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:21:08 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:23:04 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:24:13 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:26:21 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:26:22 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:29:47 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:33:10 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:33:53 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:34:36 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:36:04 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:37:18 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:37:38 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:38:01 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:38:32 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:40:20 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:40:34 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:40:43 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:41:29 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:44:19 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:44:51 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:45:42 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:47:03 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:48:18 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:48:58 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:53:23 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:53:41 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:55:15 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 05:56:02 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 06:01:42 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 06:01:47 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 06:03:39 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 06:09:21 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 06:14:30 am - 400 - Invalid or missing property object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->postAction(Object(Request))
+#1 {main}
+
+2018-11-27 06:15:24 am - 400 - Invalid or missing property object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->postAction(Object(Request))
+#1 {main}
+
+2018-11-27 06:16:07 am - 400 - Invalid or missing property object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->postAction(Object(Request))
+#1 {main}
+
+2018-11-27 06:16:45 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 06:18:17 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 06:18:32 am - 400 - Invalid property ID.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#1 {main}
+
+2018-11-27 06:19:50 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 06:21:01 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 06:22:17 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 06:23:39 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 06:26:14 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 06:26:57 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 06:27:32 am - 400 - Invalid property ID.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#1 {main}
+
+2018-11-27 06:27:39 am - 400 - Invalid property ID.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#1 {main}
+
+2018-11-27 06:27:49 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 06:38:26 am - 23000 - SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'prop_9_img_1.PNG' for key 'file_name'
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PhotosModel.php(57): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(62): PhotosModel->createPropertyPhoto()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->postAction(Object(Request))
+#3 {main}
+
+2018-11-27 06:39:21 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 06:39:59 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 06:40:02 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 06:40:40 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 06:41:10 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-27 06:41:14 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+

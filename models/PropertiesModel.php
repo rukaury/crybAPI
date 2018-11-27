@@ -11,12 +11,13 @@ class PropertiesModel
 {
     public $pid;
     public $uid;
-    public $type;
+    public $p_type;
     public $area;
     public $num_of_bedrooms;
     public $num_of_bathrooms;
     public $num_of_other_rooms;
     public $description;
+    public $price;
 
     public function getProperties() {
         $pdo = DB::get()->prepare("SELECT * FROM property as p, address as a where p.pid = a.pid");
@@ -105,34 +106,34 @@ class PropertiesModel
     }
 
     public function createProperty() {
-        $pdo = DB::get()->prepare("INSERT INTO property (uid, type, num_of_bedrooms, num_of_bathrooms, num_of_other_rooms, price, area, description) VALUES (:uid, :type, :num_of_bedrooms, :num_of_bathrooms, :num_of_other_rooms, :price, :area, :description");
+        $pdo = DB::get()->prepare("INSERT INTO property (uid,p_type,num_of_bedrooms,num_of_bathrooms,num_of_other_rooms,price,area,description) VALUES (:uid, :p_type, :num_of_bedrooms, :num_of_bathrooms, :num_of_other_rooms, :price, :area, :description)");
         $pdo->execute(array(
-            ':pid' 	=> $this->pid,
-            ':type' 	=> $this->type,
-            ':num_of_bedrooms'		=> $this->num_of_bedrooms,
-            ':num_of_bathrooms'		=> $this->num_of_bathrooms,
-            ':num_of_other_rooms'		=> $this->num_of_other_rooms,
-            ':price'		=> $this->price,
-            ':area'		=> $this->area,
-            ':description'		=> $this->description
+            ':uid' => $this->uid,
+            ':p_type' => $this->p_type,
+            ':num_of_bedrooms' => $this->num_of_bedrooms,
+            ':num_of_bathrooms' => $this->num_of_bathrooms,
+            ':num_of_other_rooms' => $this->num_of_other_rooms,
+            ':price' => $this->price,
+            ':area' => $this->area,
+            ':description' => $this->description
         ));
 
         if ($pdo->rowCount() > 0) {
             $this->pid = DB::lastInsertId('id');
-            return $this;
+            return $this->pid;
         }
         else
             throw new Exception("Page not found..", 404);
     }
 
     public function updateProperty() {
-        $pdo = DB::get()->prepare("UPDATE property SET type = :type, num_of_bedrooms = :num_of_bedrooms, num_of_bathrooms = 
+        $pdo = DB::get()->prepare("UPDATE property SET p_type = :p_type, num_of_bedrooms = :num_of_bedrooms, num_of_bathrooms = 
 :num_of_bathrooms, num_of_other_rooms = :num_of_other_rooms, price = :price, description =
  :description, price = :price, area = :area WHERE pid = :pid");
         $pdo->execute(array(
             ':pid' => $this->pid,
             ':uid' => $this->uid,
-            ':type' => $this->type,
+            ':p_type' => $this->p_type,
             ':num_of_bedrooms' => $this->num_of_bedrooms,
             ':num_of_bathrooms' => $this->num_of_bathrooms,
             ':num_of_other_rooms' => $this->num_of_other_rooms,

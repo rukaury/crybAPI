@@ -11,7 +11,7 @@ class AddressesModel
 {
     public $pid;
     public $street;
-    public $number;
+    public $house_number;
     public $country;
     public $state;
     public $city;
@@ -43,45 +43,42 @@ class AddressesModel
     }
 
     public function createAddress() {
-        $pdo = DB::get()->prepare("INSERT INTO address (number, street, country, state, apartment, city) VALUES (:number, :street, 
-:country, :state, : apartment, :city)");
+        $query = "INSERT INTO address (pid, house_number, street, city, state, country, apartment) VALUES (:pid, 
+:house_number, :street, :city, :state, :country, :apartment)";
+        $pdo = DB::get()->prepare($query);
         $pdo->execute(array(
-            ':number' 	=> $this->first_name,
-            ':street' 	=> $this->last_name,
-            ':country'		=> $this->email,
-            ':state'		=> $this->state,
+            ':pid' 	=> $this->pid,
+            ':house_number' 	=> $this->house_number,
+            ':street' 	=> $this->street,
             ':city'		=> $this->city,
-            ':apartment'		=> $this->apt
+            ':state'		=> $this->state,
+            ':country'		=> $this->country,
+            ':apartment'		=> $this->apartment
         ));
 
         if ($pdo->rowCount() > 0) {
-            $this->id = DB::lastInsertId('id');
-            return $this;
+            return $this->pid;
         }
         else
-            throw new Exception("No address was created.", 500);
+            throw new Exception("No address was created.", 404);
     }
 
     public function updateAddress() {
-        $pdo = DB::get()->prepare("UPDATE address SET number = :number, street = :street, country = :country, state = :state, 
+        $pdo = DB::get()->prepare("UPDATE address SET house_number = :house_number, street = :street, country = :country, state = :state, 
 apartment = :apartment, city = :city 
 WHERE pid =
  :id");
         $pdo->execute(array(
-            ':id'			=> $this->pid,
-            ':number' 	=> $this->first_name,
-            ':street' 	=> $this->last_name,
-            ':country'		=> $this->email,
-            ':state'		=> $this->state,
-            ':apartment'		=> $this->apt,
-            ':city'	=> $this->city
+            ':house_number' 	=> $this->house_number,
+            ':street' 	=> $this->street,
+            ':apartment'		=> $this->apartment
         ));
 
         if ($pdo->rowCount() > 0) {
             return $this;
         }
         else
-            throw new Exception("No address was updated.", 200);
+            throw new Exception("No address was updated.", 404);
     }
 
     public function deleteAddress($property_id) {

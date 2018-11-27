@@ -10,7 +10,7 @@
 class PhotosModel
 {
     public $pid;
-    public $type;
+    public $image_type;
     public $file_name;
     public $old_name;
 
@@ -33,7 +33,7 @@ class PhotosModel
         $pdo->execute(array('id' => $property_id));
         $result = $pdo->fetchAll(PDO::FETCH_CLASS, 'PhotosModel');
 
-        if (count($result) > 1)
+        if (count($result) > 0)
             return $result;
         else
             throw new Exception("An error has occured.", 500);
@@ -47,30 +47,28 @@ class PhotosModel
         if (count($result) == 1)
             return $result;
         else
-            throw new Exception("An error has occured.", 500);
+            return json_encode(array("Count(*)" => 0));
     }
 
     public function createPropertyPhoto() {
-        $pdo = DB::get()->prepare("INSERT INTO photo (pid, type, file_name) VALUES (:pid, :type , :file_name)");
+        $pdo = DB::get()->prepare("INSERT INTO photo (pid, file_name) VALUES (:pid, :file_name)");
         $pdo->execute(array(
             ':pid' 	=> $this->pid,
-            ':type' => $this->type,
             ':file_name' => $this->file_name
         ));
 
         if ($pdo->rowCount() > 0) {
-            $this->pid = DB::lastInsertId('id');
             return $this;
         }
         else
-            throw new Exception("An error has occured.", 500);
+            throw new Exception("An error has occurred.", 500);
     }
 
     public function updatePropertyPhoto() {
-        $pdo = DB::get()->prepare("UPDATE photo SET type = :type, file_name = :new_file_name WHERE pid = :id and file_name = :old_file_name");
+        $pdo = DB::get()->prepare("UPDATE photo SET image_type = :image_type, file_name = :new_file_name WHERE pid = :id and file_name = :old_file_name");
         $pdo->execute(array(
             ':id'			=> $this->pid,
-            ':type' 	=> $this->type,
+            ':image_type' 	=> $this->type,
             ':new_file_name' => $this->file_name,
             ':old_file_name' => $this->old_name
         ));

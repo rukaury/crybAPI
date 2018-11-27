@@ -57,8 +57,8 @@ class PhotosController
      */
     public function postAction($request) {
         // API/Photos
-        $this->model = Helper::cast($request->body->property, $this->model_name);
-        if ($this->model->first_name && $this->model->last_name && $this->model->email)
+        $this->model = Helper::cast($request->body->photo, $this->model_name);
+        if ($this->model->pid && $this->model->file_name)
             return $this->model->createPropertyPhoto();
         else
             throw new Exception("Invalid or missing property object in request.", 400);
@@ -71,7 +71,7 @@ class PhotosController
      */
     public function putAction($request) {
         // API/propertyPhotos
-        $this->model = Helper::cast($request->body->property, $this->model_name);
+        $this->model = Helper::cast($request->body->photo, $this->model_name);
         if ($this->model->id)
             return $this->model->updatePropertyPhoto();
         else
