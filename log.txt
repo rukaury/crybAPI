@@ -2524,3 +2524,269 @@ Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): Ph
 #1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
 #2 {main}
 
+2018-11-28 04:59:34 am - 42000 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE pid = '1'' at line 1
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(155): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(117): PropertiesModel->deleteProperty(1)
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->deleteAction(Object(Request))
+#3 {main}
+
+2018-11-28 05:02:57 am - 42000 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as p, address as a, photo as ph WHERE p.pid = '1' and a.pid = p.pid and ph.pid =' at line 1
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(155): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(117): PropertiesModel->deleteProperty(1)
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->deleteAction(Object(Request))
+#3 {main}
+
+2018-11-28 05:04:00 am - 42000 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as p, address as a, photo as ph WHERE p.pid = '1' and a.pid = p.pid and ph.pid =' at line 1
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(155): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(117): PropertiesModel->deleteProperty(1)
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->deleteAction(Object(Request))
+#3 {main}
+
+2018-11-28 05:10:53 am - 42000 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* FROM property as p, address as a, photo as ph WHERE p.pid = '1' and a.pid = p.' at line 1
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(155): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(117): PropertiesModel->deleteProperty(1)
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->deleteAction(Object(Request))
+#3 {main}
+
+2018-11-28 05:14:30 am - 42000 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as p, address as a, photo as ph WHERE p.pid = '1' and a.pid = p.pid and ph.pid =' at line 1
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(155): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(117): PropertiesModel->deleteProperty(1)
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->deleteAction(Object(Request))
+#3 {main}
+
+2018-11-28 05:14:32 am - 42000 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as p, address as a, photo as ph WHERE p.pid = '1' and a.pid = p.pid and ph.pid =' at line 1
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(155): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(117): PropertiesModel->deleteProperty(1)
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->deleteAction(Object(Request))
+#3 {main}
+
+2018-11-28 05:16:14 am - 42000 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as p, address as a, photo as ph WHERE p.pid = '1' and a.pid = '1' and ph.pid = '' at line 1
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(155): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(117): PropertiesModel->deleteProperty(1)
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->deleteAction(Object(Request))
+#3 {main}
+
+2018-11-28 05:16:59 am - 42000 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE pid = '1'' at line 1
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(155): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(117): PropertiesModel->deleteProperty(1)
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->deleteAction(Object(Request))
+#3 {main}
+
+2018-11-28 05:20:10 am - 23000 - SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`cryb`.`address`, CONSTRAINT `address_ibfk_1` FOREIGN KEY (`pid`) REFERENCES `property` (`pid`))
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(156): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(117): PropertiesModel->deleteProperty(1)
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->deleteAction(Object(Request))
+#3 {main}
+
+2018-11-28 05:22:25 am - 23000 - SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`cryb`.`address`, CONSTRAINT `address_ibfk_1` FOREIGN KEY (`pid`) REFERENCES `property` (`pid`))
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(155): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(117): PropertiesModel->deleteProperty(1)
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->deleteAction(Object(Request))
+#3 {main}
+
+2018-11-28 05:24:29 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(40): PropertiesModel->getProperty(1)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-28 05:24:30 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(1)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-28 05:44:02 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(40): PropertiesModel->getProperty(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-28 05:44:03 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(9)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-28 05:44:06 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(68): PropertiesModel->getPropertiesByOwner(1)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-28 05:46:02 am - 23000 - SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`cryb`.`address`, CONSTRAINT `address_ibfk_1` FOREIGN KEY (`pid`) REFERENCES `property` (`pid`))
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(155): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(117): PropertiesModel->deleteProperty(1)
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->deleteAction(Object(Request))
+#3 {main}
+
+2018-11-28 05:51:52 am - 23000 - SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`cryb`.`address`, CONSTRAINT `address_ibfk_1` FOREIGN KEY (`pid`) REFERENCES `property` (`pid`))
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(155): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(117): PropertiesModel->deleteProperty(1)
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->deleteAction(Object(Request))
+#3 {main}
+
+2018-11-28 05:54:56 am - 23000 - SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`cryb`.`address`, CONSTRAINT `address_ibfk_1` FOREIGN KEY (`pid`) REFERENCES `property` (`pid`))
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(155): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(117): PropertiesModel->deleteProperty(1)
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->deleteAction(Object(Request))
+#3 {main}
+
+2018-11-28 06:02:26 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(68): PropertiesModel->getPropertiesByOwner(1)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-28 06:03:26 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(68): PropertiesModel->getPropertiesByOwner(1)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-28 06:03:52 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(68): PropertiesModel->getPropertiesByOwner(1)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-28 06:04:52 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(4)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-28 06:05:00 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(4)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-28 06:05:04 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(4)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-28 06:06:10 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(40): PropertiesModel->getProperty(4)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-28 06:06:11 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(4)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-28 06:10:32 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(68): PropertiesModel->getPropertiesByOwner(2)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-28 06:11:33 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(4)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-28 06:11:36 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(4)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-28 06:11:40 am - 23000 - SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`cryb`.`address`, CONSTRAINT `address_ibfk_1` FOREIGN KEY (`pid`) REFERENCES `property` (`pid`))
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(155): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(117): PropertiesModel->deleteProperty(4)
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->deleteAction(Object(Request))
+#3 {main}
+
+2018-11-28 06:11:42 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(4)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-28 06:15:07 am - 23000 - SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`cryb`.`address`, CONSTRAINT `address_ibfk_3` FOREIGN KEY (`pid`) REFERENCES `property` (`pid`))
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(155): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(117): PropertiesModel->deleteProperty(4)
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->deleteAction(Object(Request))
+#3 {main}
+
+2018-11-28 06:15:09 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(4)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-28 06:17:51 am - 23000 - SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`cryb`.`address`, CONSTRAINT `address_ibfk_3` FOREIGN KEY (`pid`) REFERENCES `property` (`pid`))
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(155): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(117): PropertiesModel->deleteProperty(4)
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->deleteAction(Object(Request))
+#3 {main}
+
+2018-11-28 06:17:54 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(4)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-28 10:34:10 pm - 23000 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'p_type' cannot be null
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(142): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(102): PropertiesModel->updateProperty()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->putAction(Object(Request))
+#3 {main}
+
+2018-11-28 10:56:02 pm - 400 - The requested object 'VisitationsController' is not supported.
+Stack Trace: #0 {main}
+
+2018-11-28 10:56:19 pm - 400 - The requested object 'VisitationsController' is not supported.
+Stack Trace: #0 {main}
+
+2018-11-28 10:56:36 pm - 400 - The requested object 'VisitationsController' is not supported.
+Stack Trace: #0 {main}
+
+2018-11-29 05:13:39 am - 23000 - SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'pid' in field list is ambiguous
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\VisitationsModel.php(18): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\VisitationsController.php(40): VisitationsModel->getUserVisitations(4)
+#2 C:\xampp\htdocs\crybAPI\index.php(55): VisitationsController->getAction(Object(Request))
+#3 {main}
+
+2018-11-29 05:14:23 am - 23000 - SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'pid' in field list is ambiguous
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\VisitationsModel.php(17): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\VisitationsController.php(40): VisitationsModel->getUserVisitations(4)
+#2 C:\xampp\htdocs\crybAPI\index.php(55): VisitationsController->getAction(Object(Request))
+#3 {main}
+
+2018-11-29 05:15:12 am - 23000 - SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'pid' in field list is ambiguous
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\VisitationsModel.php(19): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\VisitationsController.php(40): VisitationsModel->getUserVisitations(4)
+#2 C:\xampp\htdocs\crybAPI\index.php(55): VisitationsController->getAction(Object(Request))
+#3 {main}
+
+2018-11-29 05:15:52 am - 23000 - SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'pid' in field list is ambiguous
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\VisitationsModel.php(19): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\VisitationsController.php(40): VisitationsModel->getUserVisitations(4)
+#2 C:\xampp\htdocs\crybAPI\index.php(55): VisitationsController->getAction(Object(Request))
+#3 {main}
+
+2018-11-29 05:34:13 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(68): PropertiesModel->getPropertiesByOwner(7)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-29 05:35:07 am - 22001 - SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'description' at row 1
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(118): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(88): PropertiesModel->createProperty()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->postAction(Object(Request))
+#3 {main}
+
+2018-11-29 05:35:08 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(68): PropertiesModel->getPropertiesByOwner(7)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-29 05:36:11 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(5)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-29 05:36:25 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(5)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
+2018-11-29 05:38:27 am - 404 - Page not found.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(40): PropertiesModel->getProperty(4)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
+#2 {main}
+
+2018-11-29 05:38:28 am - 500 - An error has occured.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PhotosController.php(41): PhotosModel->getPropertyPhotos(4)
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PhotosController->getAction(Object(Request))
+#2 {main}
+
