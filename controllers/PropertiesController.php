@@ -40,13 +40,13 @@ class PropertiesController
                 return $this->model->getProperty((int)$property_query);
             }
             elseif ($property_query == 'options'){
-                // crybAPI/properties/options/{city}/{type}/{#of_bedrooms}/{#of_bathrooms}/{minPrice}/{maxPrice}
+                // crybAPI/properties/options/{city}/{type}/{#of_bedrooms}/{#of_bathrooms}/{#of_other_rooms}/{minPrice}/{maxPrice}
                 $property_options = array();
                 if(isset($request->url_elements[4]) && $request->url_elements[4] != 'none'){
                     $property_options['city'] = $request->url_elements[4] ;
                 }
                 if(isset($request->url_elements[5]) && $request->url_elements[5] != 'none'){
-                    $property_options['type'] = $request->url_elements[5];
+                    $property_options['p_type'] = $request->url_elements[5];
                 }
                 if(isset($request->url_elements[6]) && (int)$request->url_elements[6] != 0){
                     $property_options['num_of_bedrooms'] = $request->url_elements[6];
@@ -55,10 +55,13 @@ class PropertiesController
                     $property_options['num_of_bathrooms'] = $request->url_elements[7];
                 }
                 if(isset($request->url_elements[8]) && (int)$request->url_elements[8] != 0){
-                    $property_options['minPrice'] = $request->url_elements[8];
+                    $property_options['num_of_other_rooms'] = $request->url_elements[8];
                 }
                 if(isset($request->url_elements[9]) && (int)$request->url_elements[9] != 0){
-                    $property_options['maxPrice'] = $request->url_elements[9];
+                    $property_options['minPrice'] = $request->url_elements[9];
+                }
+                if(isset($request->url_elements[10]) && (int)$request->url_elements[10] != 0){
+                    $property_options['maxPrice'] = $request->url_elements[10];
                 }
                 return $this->model->getPropertiesByOptions($property_options);
             }

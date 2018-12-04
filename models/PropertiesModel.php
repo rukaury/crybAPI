@@ -65,6 +65,10 @@ class PropertiesModel
                 $sqlQuery .= " and " . $key . " >= " . $value;
             elseif($key == 'num_of_bathrooms')
                 $sqlQuery .= " and " . $key . " >= " . $value;
+            elseif($key == 'num_of_other_rooms')
+                $sqlQuery .= " and " . $key . " >= " . $value;
+            elseif(($key == 'p_type' || $key == 'city') and $value="any")
+                $sqlQuery .= "";
             else
                 $sqlQuery .= " and " . $key . " = '" . $value . "'";
         }
