@@ -11,6 +11,7 @@ class PropertiesModel
 {
     public $pid;
     public $uid;
+    public $bid;
     public $p_type;
     public $area;
     public $num_of_bedrooms;
@@ -18,6 +19,7 @@ class PropertiesModel
     public $num_of_other_rooms;
     public $description;
     public $price;
+    public $is_deleted;
 
     public function getProperties() {
         $pdo = DB::get()->prepare("SELECT * FROM property as p, address as a where p.pid = a.pid");
@@ -33,7 +35,7 @@ class PropertiesModel
     }
 
     public function getPropertiesByOwner($owner_id) {
-        $pdo = DB::get()->prepare("SELECT * FROM property as p, address as a WHERE p.uid = :id and p.pid = a.pid");
+        $pdo = DB::get()->prepare("SELECT * FROM property as p, address as a WHERE p.is_deleted = 0 and p.uid = :id and p.pid = a.pid");
         $pdo->execute(array('id' => $owner_id));
         $result = $pdo->fetchAll(PDO::FETCH_CLASS, 'PropertiesModel');
 
@@ -44,7 +46,7 @@ class PropertiesModel
     }
 
     public function getProperty($property_id) {
-        $pdo = DB::get()->prepare("SELECT * FROM property as p, address as a WHERE p.pid = :id and p.pid = a.pid");
+        $pdo = DB::get()->prepare("SELECT * FROM property as p, address as a, bid as b WHERE p.pid = :id and p.pid = a.pid and b.pid = p.pid");
         $pdo->execute(array('id' => $property_id));
         $result = $pdo->fetchAll(PDO::FETCH_CLASS, 'PropertiesModel');
 
@@ -126,6 +128,20 @@ class PropertiesModel
             throw new Exception("Page not found..", 404);
     }
 
+    public function unDeleteProperty() {
+        $pdo = DB::get()->prepare("UPDATE property SET is_deleted = :is_deleted WHERE pid = :pid");
+        $pdo->execute(array(
+            ':pid' => $this->property_id,
+            ':is_deleted' => $this->is_deleted
+        ));
+
+        if ($pdo->rowCount() > 0) {
+            return $this;
+        }
+        else
+            throw new Exception("Page not found..", 404);
+    }
+
     public function updateProperty() {
         $pdo = DB::get()->prepare("UPDATE property SET p_type = :p_type, num_of_bedrooms = :num_of_bedrooms, num_of_bathrooms = 
 :num_of_bathrooms, num_of_other_rooms = :num_of_other_rooms, price = :price, description =
@@ -149,10 +165,24 @@ class PropertiesModel
             throw new Exception("Page not found..", 404);
     }
 
-    public function deleteProperty($property_id) {
-        $pdo = DB::get()->prepare("DELETE FROM property WHERE pid = :id");
+    public function updatePropertyBid() {
+        $pdo = DB::get()->prepare("UPDATE bid SET bid = :bid WHERE pid = :pid and bid < :bid");
         $pdo->execute(array(
-            ':id' => $property_id
+            ':pid' => $this->pid,
+            ':bid' => $this->bid
+        ));
+
+        if ($pdo->rowCount() > 0) {
+            return $this;
+        }
+        else
+            throw new Exception("Page not found..", 404);
+    }
+
+    public function deleteProperty($property_id) {
+        $pdo = DB::get()->prepare("UPDATE property SET is_deleted = 1 WHERE pid = :pid");
+        $pdo->execute(array(
+            ':pid' => $property_id
         ));
 
         if ($pdo->rowCount() > 0) {
