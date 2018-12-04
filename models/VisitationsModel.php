@@ -40,14 +40,22 @@ class VisitationsModel
     }
 
     public function createVisitation() {
-        $pdo = DB::get()->prepare("INSERT INTO visitation (uid, pid) VALUES (:uid, :pid)");
+        $pdo = DB::get()->prepare("SELECT :pid, :uid FROM visitation");
         $pdo->execute(array(
             ':uid' 	=> $this->uid,
             ':pid' 	=> $this->pid
         ));
 
-        if ($pdo->rowCount() > 0) {
-            return $this;
+        if ($pdo->rowCount() == 0) {
+            $pdo = DB::get()->prepare("INSERT INTO visitation (pid,uid) VALUES (:pid, :uid)");
+            $pdo->execute(array(
+                ':uid' 	=> $this->uid,
+                ':pid' 	=> $this->pid
+            ));
+
+            if ($pdo->rowCount() == 1) {
+                return $this;
+            }
         }
         else
             throw new Exception("No visitation was created.", 500);
