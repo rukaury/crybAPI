@@ -64,11 +64,10 @@ class AddressesModel
     }
 
     public function updateAddress() {
-        $pdo = DB::get()->prepare("UPDATE address SET house_number = :house_number, street = :street, country = :country, state = :state, 
-apartment = :apartment, city = :city 
-WHERE pid =
- :id");
+        $pdo = DB::get()->prepare("UPDATE address SET house_number = :house_number, street = :street, 
+apartment = :apartment WHERE pid = :pid");
         $pdo->execute(array(
+            ':pid' 	=> $this->pid,
             ':house_number' 	=> $this->house_number,
             ':street' 	=> $this->street,
             ':apartment'		=> $this->apartment

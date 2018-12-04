@@ -3116,3 +3116,92 @@ Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(68)
 #1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->getAction(Object(Request))
 #2 {main}
 
+2018-12-04 07:19:35 am - 23000 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'num_of_bedrooms' cannot be null
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(162): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(111): PropertiesModel->updateProperty()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->putAction(Object(Request))
+#3 {main}
+
+2018-12-04 07:20:37 am - 23000 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'price' cannot be null
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(162): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(111): PropertiesModel->updateProperty()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->putAction(Object(Request))
+#3 {main}
+
+2018-12-04 07:29:13 am - 23000 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'p_type' cannot be null
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\PropertiesModel.php(162): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(111): PropertiesModel->updateProperty()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->putAction(Object(Request))
+#3 {main}
+
+2018-12-04 07:29:43 am - 404 - Page not found..
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(111): PropertiesModel->updateProperty()
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->putAction(Object(Request))
+#2 {main}
+
+2018-12-04 07:43:28 am - 400 - Invalid or missing property object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->putAction(Object(Request))
+#1 {main}
+
+2018-12-04 07:45:34 am - 404 - Page not found..
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\controllers\PropertiesController.php(111): PropertiesModel->updateProperty()
+#1 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->putAction(Object(Request))
+#2 {main}
+
+2018-12-04 07:52:34 am - 400 - Invalid or missing property object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->putAction(Object(Request))
+#1 {main}
+
+2018-12-04 07:53:33 am - 400 - Invalid or missing property object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): PropertiesController->putAction(Object(Request))
+#1 {main}
+
+2018-12-04 07:56:12 am - 400 - Invalid or missing address object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->putAction(Object(Request))
+#1 {main}
+
+2018-12-04 07:56:38 am - 400 - Invalid or missing address object in request.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->putAction(Object(Request))
+#1 {main}
+
+2018-12-04 07:57:02 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\AddressesModel.php(74): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\AddressesController.php(83): AddressesModel->updateAddress()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->putAction(Object(Request))
+#3 {main}
+
+2018-12-04 07:57:39 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\AddressesModel.php(74): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\AddressesController.php(83): AddressesModel->updateAddress()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->putAction(Object(Request))
+#3 {main}
+
+2018-12-04 07:59:32 am - 400 - The request content was invalid and could not be parsed successfully as JSON.
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\library\Request.php(20): Request->parseBody()
+#1 C:\xampp\htdocs\crybAPI\index.php(28): Request->__construct()
+#2 {main}
+
+2018-12-04 07:59:45 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\AddressesModel.php(74): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\AddressesController.php(83): AddressesModel->updateAddress()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->putAction(Object(Request))
+#3 {main}
+
+2018-12-04 08:00:49 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\AddressesModel.php(75): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\AddressesController.php(83): AddressesModel->updateAddress()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->putAction(Object(Request))
+#3 {main}
+
+2018-12-04 08:00:53 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\AddressesModel.php(75): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\AddressesController.php(83): AddressesModel->updateAddress()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->putAction(Object(Request))
+#3 {main}
+
+2018-12-04 08:01:47 am - HY093 - SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Stack Trace: #0 C:\xampp\htdocs\crybAPI\models\AddressesModel.php(75): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\crybAPI\controllers\AddressesController.php(83): AddressesModel->updateAddress()
+#2 C:\xampp\htdocs\crybAPI\index.php(55): AddressesController->putAction(Object(Request))
+#3 {main}
+

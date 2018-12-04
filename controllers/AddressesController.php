@@ -79,7 +79,7 @@ class AddressesController
     public function putAction($request) {
         // API/Addresses
         $this->model = Helper::cast($request->body->address, $this->model_name);
-        if ($this->model->id)
+        if ($this->model->pid)
             return $this->model->updateAddress();
         else
             throw new Exception("Invalid or missing address object in request.", 400);
